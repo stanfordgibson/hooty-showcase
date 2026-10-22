@@ -9,9 +9,15 @@ Prepared 22 October 2026 from recorded project history. The source repository, r
 - A demonstration and pitch were prepared for the Google Africa Applied AI Lab application.
 - Crime-data tables were reloaded after expiration issues; expiration settings were corrected in September 2026.
 
+## Demo evidence inspected
+
+Four frames from the owner's original video now illustrate the location search form, historical report, simplified AI explanation and contextual family guidance. The family response keeps the report's risk level unchanged. This is evidence of the recorded build, not a fresh end-to-end test.
+
+The recorded report displays January 2018–February 2022. Earlier source-data notes say 2018–2021; that difference needs reconciliation.
+
 ## Items to verify now
 
-- Review the linked demo's exact features and recording date; recheck public viewing permissions.
+- Confirm the demo recording date and external public viewing permissions.
 - Run one current address-to-report search and one context-grounded conversation.
 - Verify crime-data dates, coordinate ordering and police geography coverage.
 - Check worker trigger authorization, geocoding, Docker services and Cloudflare routing.

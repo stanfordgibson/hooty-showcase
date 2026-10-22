@@ -28,7 +28,23 @@ Safety questions often involve an unfamiliar address and little context. I wante
 
 These materials were prepared for an earlier funding application. The demo presents the MVP at that stage; the pitch also describes the broader product vision. The status table below distinguishes recorded capabilities from remaining work.
 
-**Screenshots:** Actual MVP captures will be added. See [the media guide](docs/MEDIA.md) for planned views and captions.
+## Screenshots from the demo
+
+These are frames extracted from the original funding demo. Original video subtitles are retained; they show the interface as recorded, rather than a current live deployment.
+
+<table>
+<tr>
+<td width="50%"><strong>1. Location search</strong><br><img src="assets/screenshots/01-location-search.jpg" width="320" alt="Hooty location and search-radius input form"><br>Enter a destination and choose a search radius.</td>
+<td width="50%"><strong>2. Historical safety report</strong><br><img src="assets/screenshots/02-safety-report.jpg" width="320" alt="Historical safety report with time patterns and station information"><br>Review the evidence period, crime patterns, time-of-day findings and station information.</td>
+</tr>
+<tr>
+<td><strong>3. AI explanation</strong><br><img src="assets/screenshots/03-ai-explanation.jpg" width="320" alt="Hooty answering Simplify this report for me"><br>Ask Hooty to explain the supplied report in plain language.</td>
+<td><strong>4. Contextual guidance</strong><br><img src="assets/screenshots/04-contextual-guidance.jpg" width="320" alt="Hooty explaining that travelling with children does not change the report risk level"><br>The recorded response adapts practical guidance for a family while keeping the report's risk level unchanged.</td>
+</tr>
+</table>
+
+See [media notes](docs/MEDIA.md) for source timestamps.
+
 
 ## High-level architecture
 
@@ -74,7 +90,7 @@ These statements reflect recorded development progress, not a fresh audit of the
 
 ## Data and interpretation limits
 
-The MVP uses historical SAPS-derived records described in the project history as covering 2018–2021. Exact date coverage and provenance should be confirmed against the current dataset. Recorded incidents reflect reporting, collection and data-quality limitations. Missing records do not mean an absence of crime.
+The recorded report displays an evidence period of January 2018–February 2022. Earlier project notes describe the historical SAPS-derived source records as covering 2018–2021; the displayed report period and actual dataset coverage need reconciliation against the current data. Recorded incidents reflect reporting, collection and data-quality limitations. Missing records do not mean an absence of crime.
 
 The assessment is a prototype interpretation of historical data. It has not been independently validated as a prediction of personal safety. Hooty is not a real-time incident feed, emergency response service or guarantee of safety. Underlying incident records are not distributed here.
 

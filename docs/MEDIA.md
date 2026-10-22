@@ -1,37 +1,22 @@
-# Screenshots and demo video
+# Demo screenshots
 
-Use actual MVP captures. Do not generate mock screenshots and present them as working software.
+Source: the owner's uploaded **Hooty Demo Final(1).mp4**, approximately 2 minutes 54 seconds long.
 
-## Four useful screenshots
+Public demo: https://youtube.com/shorts/Ag2Ct_rHCvE
 
-| Filename under assets/screenshots | Capture | Caption |
+Pitch deck: https://docs.google.com/presentation/d/17WwL4NbDpP7vQmtcaN9q5rwelqGCH6_mLzjZJdD8pbQ/edit?usp=sharing
+
+## Extracted frames
+
+| Screenshot | Source time | What it shows |
 | --- | --- | --- |
-| 01-search.png | Address and radius input | Start a location-based historical safety search. |
-| 02-report.png | Completed assessment and report | Review the deterministic report and its context. |
-| 03-time-station.png | Time-of-day summary and station information | Explore historical time patterns and nearby station information. |
-| 04-ai-conversation.png | A question and grounded response | Ask Hooty to explain the supplied report. |
+| 01-location-search.jpg | 00:10 | Location input and search-radius form |
+| 02-safety-report.jpg | 01:05 | Historical summary, time patterns and nearest-station information |
+| 03-ai-explanation.jpg | 01:40 | Response to “Simplify this report for me” |
+| 04-contextual-guidance.jpg | 02:20 | Family guidance with the report risk level kept unchanged |
 
-Use a neutral demonstration address. Remove personal emails, search history, request identifiers, precise private locations, credentials and operational dashboards from captures. Preserve meaningful labels and data-period information.
+Files are under `assets/screenshots/`. Frames were resized to 720 × 1280 and saved as JPEGs; original subtitles and interface content were retained. No interface elements were invented or reconstructed.
 
-After adding each file, embed it in README.md using standard Markdown, for example:
+These frames document the recorded build. They do not verify current deployment availability, dataset accuracy, score calibration or every AI response. The report frame displays January 2018–February 2022; this should be reconciled with source-data coverage.
 
-![Completed Hooty safety report](assets/screenshots/02-report.png)
-
-Only add image links after the real files exist.
-
-## Existing pitch video
-
-The owner supplied these links for the earlier funding pitch:
-
-- Demo: https://youtube.com/shorts/Ag2Ct_rHCvE
-- Pitch deck: https://docs.google.com/presentation/d/17WwL4NbDpP7vQmtcaN9q5rwelqGCH6_mLzjZJdD8pbQ/edit?usp=sharing
-
-Their contents and public viewing permissions have not been independently verified for this showcase. Link to the video rather than adding a large file to Git history.
-
-Suggested README text once confirmed:
-
-[Watch the Hooty MVP demonstration](https://youtube.com/shorts/Ag2Ct_rHCvE)
-
-Below it, state the recording month/year and whether it shows an earlier build. If the pitch contains future vision, distinguish it from demonstrated functionality in the caption.
-
-An optional thumbnail should be a real frame from the demo. Link that image to the confirmed video URL. Add timestamps after watching the actual recording; do not invent them.
+The original uploaded video was inspected for frame selection. Public viewing permissions for the external video and deck links have not been independently verified.
